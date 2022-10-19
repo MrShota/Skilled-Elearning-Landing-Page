@@ -23,9 +23,9 @@
   <div class="container">
     <div class="header">
       <p>skilled</p>
-      <button class="header-btn">Get Started</button>
+      <button>Get Started</button>
     </div>
-    <div class="wellcome">
+    <div class="welcome">
       <div class="left">
         <h1>Maximize skill, <br> minimize budget</h1>
         <p>Our modern courses across a range of in-demand <br> skills will give you the knowledge you need to live <br>
@@ -33,43 +33,49 @@
         <button>Get Started</button>
       </div>
       <div class="right">
-        <img src="assets/image-hero-desktop@2x.webp" alt="image-hero-desktop">
+        <picture class="img" >
+          <source media="(max-width:768px)" srcset="assets/image-hero-tablet.webp">
+          <!-- <source media="(min-width:375px)" srcset="assets/image-hero-mobile.png"> -->
+          <img src="assets/image-hero-desktop.webp" alt="Flowers" style="width:auto;">
+        </picture>
+        <img src="assets/image-hero-mobile.png" class="img-mobile" alt="image-hero-mobile">
+        <!-- <img src="assets/image-hero-desktop@2x.webp" alt="image-hero-desktop"> -->
+        <!-- <img src="" alt="" srcset=""> -->
+        <!-- <source src="assets/image-hero-tablet.png" type="(max-width:768px)"> -->
       </div>
     </div>
-    <!-- class names not needed -->
     <div class="courses">
       <div>
         <p> Check out our <br> most popular <br> courses!</p>
       </div>
-      <div class="animation">
+      <div>
         <img src="assets/icon-animation.svg" alt="icon-animation">
         <h1>Animation</h1>
-        <p>Learn the latest animation <br> techniques to create stunning <br> motion design and captivate your <br>
-          audience.</p>
+        <p>Learn the latest animation <br> techniques to create stunning <br> motion design and captivate your<br> audience.</p>
         <a href="#">Get Started</a>
       </div>
-      <div class="animation">
+      <div>
         <img src="assets/icon-animation.svg" alt="icon-animation">
         <h1>Design</h1>
         <p>Create beautiful, usable <br> interfaces to help shape the <br> future of
           how the web looks.</p>
         <a href="#">Get Started</a>
       </div>
-      <div class="animation">
+      <div>
         <img src="assets/icon-animation.svg" alt="icon-animation">
         <h1>Photography</h1>
         <p> Explore critical fundamentals like <br> lighting, composition, and focus <br>
           to capture exceptional photos.</p>
         <a href="#">Get Started</a>
       </div>
-      <div class="animation">
+      <div>
         <img src="assets/icon-animation.svg" alt="icon-animation">
         <h1>Crypto</h1>
         <p> All you need to know to get <br> started investing in crypto. Go <br> from beginner
           to advanced with <br> this 54 hour course.</p>
         <a href="#">Get Started</a>
       </div>
-      <div class="animation">
+      <div>
         <img src="assets/icon-animation.svg" alt="icon-animation">
         <h1>Business</h1>
         <p> A step-by-step playbook to help <br> you start, scale, and sustain your <br> business
